@@ -1,0 +1,11 @@
+//
+//  CommonCryptoKit.xcconfig
+//  CommonCryptoKit
+//
+//  Created by Chris Amanse on 12/08/2016.
+//
+//
+
+MODULEMAP_FILE[sdk=iphoneos*] = $(SRCROOT)/Sources/iphoneos.modulemap
+MODULEMAP_FILE[sdk=iphonesimulator*] = $(SRCROOT)/Sources/iphonesimulator.modulemap
+MODULEMAP_FILE[sdk=macosx*] = $(SRCROOT)/Sources/macosx.modulemap
