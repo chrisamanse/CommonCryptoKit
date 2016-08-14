@@ -9,3 +9,5 @@
 MODULEMAP_FILE[sdk=iphoneos*] = $(SRCROOT)/Sources/iphoneos.modulemap
 MODULEMAP_FILE[sdk=iphonesimulator*] = $(SRCROOT)/Sources/iphonesimulator.modulemap
 MODULEMAP_FILE[sdk=macosx*] = $(SRCROOT)/Sources/macosx.modulemap
+MODULEMAP_FILE[sdk=watchos*] = $(SRCROOT)/Sources/watchos.modulemap
+MODULEMAP_FILE[sdk=watchsimulator*] = $(SRCROOT)/Sources/watchsimulator.modulemap

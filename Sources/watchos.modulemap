@@ -1,0 +1,4 @@
+module CommonCryptoKit [system] {
+    header "/Applications/Xcode-beta.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS.sdk/usr/include/CommonCrypto/CommonCrypto.h"
+    export *
+}
