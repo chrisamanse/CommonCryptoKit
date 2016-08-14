@@ -514,6 +514,7 @@
 		};
 		DFBAB01D1D6099480048EE56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9E07231D5D006A00DA95F9 /* CommonCryptoKit.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -579,6 +580,7 @@
 		};
 		DFBAB01E1D6099480048EE56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9E07231D5D006A00DA95F9 /* CommonCryptoKit.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
