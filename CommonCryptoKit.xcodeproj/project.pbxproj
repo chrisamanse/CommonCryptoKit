@@ -44,6 +44,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF39DE771D614D42005CE0B4 /* Modulemaps */ = {
+			isa = PBXGroup;
+			children = (
+				DFBAB01F1D6099E20048EE56 /* watchsimulator.modulemap */,
+				DFBAB0111D6098A10048EE56 /* watchos.modulemap */,
+				DF9E07201D5D003A00DA95F9 /* iphoneos.modulemap */,
+				DF9E07211D5D003A00DA95F9 /* iphonesimulator.modulemap */,
+				DF9E07221D5D003A00DA95F9 /* macosx.modulemap */,
+			);
+			name = Modulemaps;
+			sourceTree = "<group>";
+		};
+		DF39DE781D614D93005CE0B4 /* Xcode Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				DF9E07231D5D006A00DA95F9 /* CommonCryptoKit.xcconfig */,
+			);
+			name = "Xcode Configurations";
+			sourceTree = "<group>";
+		};
+		DF39DE791D614DA0005CE0B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF9E071F1D5D003A00DA95F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		DF9E06FB1D5CFF0C00DA95F9 = {
 			isa = PBXGroup;
 			children = (
@@ -65,13 +93,9 @@
 		DF9E071D1D5D003A00DA95F9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DF9E07231D5D006A00DA95F9 /* CommonCryptoKit.xcconfig */,
-				DFBAB01F1D6099E20048EE56 /* watchsimulator.modulemap */,
-				DFBAB0111D6098A10048EE56 /* watchos.modulemap */,
-				DF9E07201D5D003A00DA95F9 /* iphoneos.modulemap */,
-				DF9E07211D5D003A00DA95F9 /* iphonesimulator.modulemap */,
-				DF9E07221D5D003A00DA95F9 /* macosx.modulemap */,
-				DF9E071F1D5D003A00DA95F9 /* Info.plist */,
+				DF39DE781D614D93005CE0B4 /* Xcode Configurations */,
+				DF39DE771D614D42005CE0B4 /* Modulemaps */,
+				DF39DE791D614DA0005CE0B4 /* Supporting Files */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -674,6 +698,7 @@
 				DFBAB01E1D6099480048EE56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
